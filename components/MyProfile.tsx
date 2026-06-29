@@ -8,7 +8,7 @@ import MyAudio from "@/components/MyAudio";
 const MyProfile = () => {
   return (
     <>
-    <div className="flex flex-col items-center gap-6 rounded-3xl bg-black p-8 text-center md:flex-row md:items-center md:justify-start md:gap-8 md:text-left">
+    <div className="flex flex-col items-center gap-6 rounded-3xl bg-black pt-8 text-center md:flex-row md:items-center md:justify-start md:gap-8 md:text-left">
       {/* Image */}
       <div className="relative h-50 w-50">
         {/* Animated Border */}
