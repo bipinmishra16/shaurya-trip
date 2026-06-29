@@ -40,7 +40,6 @@ const MyProfile = () => {
           Mango Lassi • Kurkure Momos • Jeera Soda
         </p>
       </div>
-      
     </div>
     <MyAudio />
     </>
