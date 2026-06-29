@@ -1,13 +1,17 @@
-import Image from "next/image"
-import ChoclateLassi from "@/public/Choclate-Lassi.jpg"
+import MyGallery from "@/components/MyGallery";
+import MyProfile from "@/components/MyProfile";
+import MySchool from "@/components/MySchool";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
-      <Image src={ChoclateLassi} alt="Chocolate Lassi" width={200} height={150} />
-      <h1 className="text-4xl font-bold">My name is Shaurya, Mere Papa kal aarhe hai</h1>
-    </div>
-  )
-}
+    <main>
+      <div className="container mx-auto max-w-5xl px-2">
+        <MyProfile />
+        <MySchool />
+        <MyGallery />
+      </div>
+    </main>
+  );
+};
 
-export default page
+export default Page;
