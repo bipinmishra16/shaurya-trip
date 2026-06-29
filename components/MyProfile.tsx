@@ -3,9 +3,11 @@
 import Image from "next/image";
 import MyImage from "@/public/images.png";
 import { motion } from "framer-motion";
+import MyAudio from "@/components/MyAudio";
 
 const MyProfile = () => {
   return (
+    <>
     <div className="flex flex-col items-center gap-6 rounded-3xl bg-black p-8 text-center md:flex-row md:items-center md:justify-start md:gap-8 md:text-left">
       {/* Image */}
       <div className="relative h-50 w-50">
@@ -38,7 +40,10 @@ const MyProfile = () => {
           Mango Lassi • Kurkure Momos • Jeera Soda
         </p>
       </div>
+      
     </div>
+    <MyAudio />
+    </>
   );
 };
 
