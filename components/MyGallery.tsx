@@ -6,13 +6,7 @@ import College3 from "@/public/image2.png";
 import College4 from "@/public/image3.jpg";
 import College5 from "@/public/image1.jpg";
 
-const images = [
-  College1,
-  College2,
-  College3,
-  College4,
-  College5,
-];
+const images = [College1, College2, College3, College4, College5];
 
 export default function CollegeGallery() {
   return (
@@ -21,16 +15,16 @@ export default function CollegeGallery() {
         {/* Heading */}
         <div className="mb-12 text-center">
           <span className="rounded-full bg-blue-500/10 px-4 py-2 text-sm font-semibold text-blue-400">
-            College Life 🎓
+            Mission Log 🚀
           </span>
 
           <h2 className="mt-5 text-4xl font-bold text-white md:text-5xl">
-            My College Gallery
+            Life Outside the Classroom
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-gray-400">
-            Some unforgettable memories, classrooms, campus views and moments
-            from my college journey.
+            Certified expert in rating mango shakes, chocolate lassi, street
+            food, and taking random photos wherever I go.
           </p>
         </div>
 
